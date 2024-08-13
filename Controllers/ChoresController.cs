@@ -8,6 +8,7 @@ public class ChoresController : ControllerBase
     {
         _choresService = choresService;
     }
+
     [HttpGet]
 
     public ActionResult<List<Chores>> GetAllChores()

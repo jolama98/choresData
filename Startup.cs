@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
 
-namespace cshapreserver;
+namespace choresData;
 
 public class Startup
 {
@@ -27,7 +27,7 @@ public class Startup
     services.AddControllers();
     services.AddSwaggerGen(c =>
     {
-      c.SwaggerDoc("v1", new OpenApiInfo { Title = "cshapreserver", Version = "v1" });
+      c.SwaggerDoc("v1", new OpenApiInfo { Title = "choresData", Version = "v1" });
     });
     services.AddSingleton<Auth0Provider>();
     services.AddScoped<IDbConnection>(x => CreateDbConnection());

@@ -1,4 +1,4 @@
-namespace cshapreserver.Controllers;
+namespace choresData.Controllers;
 
 [Authorize]
 [ApiController]
