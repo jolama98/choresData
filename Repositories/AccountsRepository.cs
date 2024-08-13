@@ -1,4 +1,4 @@
-namespace cshapreserver.Repositories;
+namespace choresData.Repositories;
 
 public class AccountsRepository
 {

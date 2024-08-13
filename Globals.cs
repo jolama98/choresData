@@ -11,6 +11,6 @@ global using Dapper;
 global using CodeWorks.Utils;
 
 // APPLICATION SPECIFIC
-global using cshapreserver.Repositories;
-global using cshapreserver.Services;
-global using cshapreserver.Models;
+global using choresData.Repositories;
+global using choresData.Services;
+global using choresData.Models;

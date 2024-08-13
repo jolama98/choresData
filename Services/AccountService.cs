@@ -1,4 +1,4 @@
-namespace cshapreserver.Services;
+namespace choresData.Services;
 
 public class AccountService
 {

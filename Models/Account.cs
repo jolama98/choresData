@@ -1,4 +1,4 @@
-namespace cshapreserver.Models;
+namespace choresData.Models;
 
 public class Account
 {
